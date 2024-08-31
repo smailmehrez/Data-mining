@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #E5E8E8;
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>120</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #19060f;
+
+}
+QPushButton:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Box-Plot</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>60</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #19060f;
+
+}
+QPushButton:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Data-Num</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>120</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #19060f;
+
+}
+QPushButton:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Vésualisation</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>260</y>
+      <width>113</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #000000;
+
+}
+QLineEdit:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>310</y>
+      <width>113</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #000000;
+
+}
+QLineEdit:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>530</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #000000;
+
+}
+QLineEdit:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>210</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+ 
+   background-color: #E5E8E8;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    font-size:25px;
+    color: #000000;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Paramètres :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>210</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+ 
+   background-color: #E5E8E8;
+	font: 25 20pt &quot;URW Bookman&quot;;
+    font-size: 25px;
+    color: #000000;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Algorithme :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>530</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+ 
+   background-color: #E5E8E8;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    font-size:25px;
+    color: #000000;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Cross Validation :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>610</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+ 
+   background-color: #E5E8E8;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    font-size:25px;
+    color: #000000;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Test Size :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>610</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #000000;
+
+}
+QLineEdit:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>710</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #19060f;
+
+}
+QPushButton:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string> Exécuter</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>:/newPrefix/administration.png</normalon>
+     </iconset>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>296</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>780</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+ 
+   background-color: #E5E8E8;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    font-size:25px;
+    color: #000000;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Score :</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>780</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextBrowser{
+ 
+   background-color: #E5E8E8;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    font-size:20px;
+    border-radius: 20px;
+    color: #000000;
+
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>240</y>
+      <width>235</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+   background-color: #E5E8E8;
+   color: black;
+   font: 25 15pt &quot;URW Bookman&quot;;
+   
+}
+QRadioButton::indicator {
+   width: 10px;
+   height: 10px;
+   border-radius: 5px;
+}
+QRadioButton::indicator::unchecked{ 
+   border: 1px solid; 
+   border-color: #6E89E2;
+   border-radius: 7px;
+   background-color: #E5E8E8; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton::indicator::checked{ 
+   border: 1px solid; 
+   border-color: #000000;
+   border-radius: 8px;
+   background-color: #6E89E2; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton:hover{
+
+     color: #6E89E2;
+     font: 25 11pt  #6E89E2;
+}</string>
+       </property>
+       <property name="text">
+        <string>KNN</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+   background-color: #E5E8E8;
+   color: black;
+    font: 25 15pt &quot;URW Bookman&quot;;
+   
+}
+QRadioButton::indicator {
+   width: 10px;
+   height: 10px;
+   border-radius: 5px;
+}
+QRadioButton::indicator::unchecked{ 
+   border: 1px solid; 
+   border-color: #6E89E2;
+   border-radius: 7px;
+   background-color: #E5E8E8; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton::indicator::checked{ 
+   border: 1px solid; 
+   border-color: #000000;
+   border-radius: 8px;
+   background-color: #6E89E2; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton:hover{
+
+     color: #6E89E2;
+     font: 25 11pt  #6E89E2;
+}</string>
+       </property>
+       <property name="text">
+        <string>Naive Bayes</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+   background-color: #E5E8E8;
+   color: black;
+   font: 25 15pt &quot;URW Bookman&quot;;
+   
+}
+QRadioButton::indicator {
+   width: 10px;
+   height: 10px;
+   border-radius: 5px;
+}
+QRadioButton::indicator::unchecked{ 
+   border: 1px solid; 
+   border-color: #6E89E2;
+   border-radius: 7px;
+   background-color: #E5E8E8; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton::indicator::checked{ 
+   border: 1px solid; 
+   border-color: #000000;
+   border-radius: 8px;
+   background-color: #6E89E2; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton:hover{
+
+     color: #6E89E2;
+     font: 25 11pt  #6E89E2;
+}</string>
+       </property>
+       <property name="text">
+        <string>Arbe De Décision</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_4">
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+   background-color: #E5E8E8;
+   color: black;
+   font: 25 15pt &quot;URW Bookman&quot;;
+   
+}
+QRadioButton::indicator {
+   width: 10px;
+   height: 10px;
+   border-radius: 5px;
+}
+QRadioButton::indicator::unchecked{ 
+   border: 1px solid; 
+   border-color: #6E89E2;
+   border-radius: 7px;
+   background-color: #E5E8E8; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton::indicator::checked{ 
+   border: 1px solid; 
+   border-color: #000000;
+   border-radius: 8px;
+   background-color: #6E89E2; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton:hover{
+
+     color: #6E89E2;
+     font: 25 11pt  #6E89E2;
+}</string>
+       </property>
+       <property name="text">
+        <string>Réseaux de neurones</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_5">
+       <property name="styleSheet">
+        <string notr="true">QRadioButton {
+   background-color: #E5E8E8;
+   color: black;
+   font: 25 15pt &quot;URW Bookman&quot;;
+   
+}
+QRadioButton::indicator {
+   width: 10px;
+   height: 10px;
+   border-radius: 5px;
+}
+QRadioButton::indicator::unchecked{ 
+   border: 1px solid; 
+   border-color: #6E89E2;
+   border-radius: 7px;
+   background-color: #E5E8E8; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton::indicator::checked{ 
+   border: 1px solid; 
+   border-color: #000000;
+   border-radius: 8px;
+   background-color: #6E89E2; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton:hover{
+
+     color: #6E89E2;
+     font: 25 11pt  #6E89E2;
+}</string>
+       </property>
+       <property name="text">
+        <string>SVM</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>986</x>
+      <y>41</y>
+      <width>459</width>
+      <height>462</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>1451</x>
+      <y>41</y>
+      <width>459</width>
+      <height>462</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>521</x>
+      <y>509</y>
+      <width>459</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>986</x>
+      <y>509</y>
+      <width>459</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_6">
+    <property name="geometry">
+     <rect>
+      <x>1451</x>
+      <y>509</y>
+      <width>459</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>0</width>
+      <height>3</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>850</y>
+      <width>511</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextBrowser{
+ 
+   background-color: #E5E8E8;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    font-size:20px;
+    color: #000000;
+    border-radius: 20px;
+
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>40</y>
+      <width>461</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>60</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #19060f;
+
+}
+QPushButton:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Normalisation</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="m2/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

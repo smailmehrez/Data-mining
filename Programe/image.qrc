@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>administration.png</file>
+    <file>right.png</file>
+    <file>icons8-import-64.png</file>
+    <file>social-data-mining.png</file>
+  </qresource>
+</RCC>

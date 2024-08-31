@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DATAMINING</class>
+ <widget class="QDialog" name="DATAMINING">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DATA MINING</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #E5E8E8;</string>
+  </property>
+  <widget class="QPushButton" name="browse">
+   <property name="geometry">
+    <rect>
+     <x>1390</x>
+     <y>500</y>
+     <width>170</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>URW Bookman</family>
+     <pointsize>-1</pointsize>
+     <weight>3</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+     <stylestrategy>PreferAntialias</stylestrategy>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #19060f;
+
+}
+QPushButton:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+   </property>
+   <property name="text">
+    <string>Data</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/newPrefix/icons8-import-64.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>-70</y>
+     <width>1200</width>
+     <height>560</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/social-data-mining.png);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1600</x>
+     <y>890</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #19060f;
+
+}
+QPushButton:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+   </property>
+   <property name="text">
+    <string> Next</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/newPrefix/right.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>640</y>
+     <width>711</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QRadioButton" name="radioButton">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton {
+   background-color: #E5E8E8;
+   color: black;
+   
+}
+QRadioButton::indicator {
+   width: 10px;
+   height: 10px;
+   border-radius: 5px;
+}
+QRadioButton::indicator::unchecked{ 
+   border: 1px solid; 
+   border-color: #6E89E2;
+   border-radius: 7px;
+   background-color: #E5E8E8; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton::indicator::checked{ 
+   border: 1px solid; 
+   border-color: #000000;
+   border-radius: 8px;
+   background-color: #6E89E2; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton:hover{
+
+     color: #6E89E2;
+     font: 25 11pt  #6E89E2;
+}</string>
+      </property>
+      <property name="text">
+       <string>Apprentissage Supervisé</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_2">
+      <property name="font">
+       <font>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QRadioButton {
+   background-color: #E5E8E8;
+   color: black;
+   
+}
+QRadioButton::indicator {
+   width: 10px;
+   height: 10px;
+   border-radius: 5px;
+}
+QRadioButton::indicator::unchecked{ 
+   border: 1px solid; 
+   border-color: #6E89E2;
+   border-radius: 7px;
+   background-color: #E5E8E8; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton::indicator::checked{ 
+   border: 1px solid; 
+   border-color: #000000;
+   border-radius: 8px;
+   background-color: #6E89E2; 
+   width: 15px; 
+   height: 15px; 
+}
+QRadioButton:hover{
+
+     color: #6E89E2;
+     font: 25 11pt  #6E89E2;
+}</string>
+      </property>
+      <property name="text">
+       <string>Apprentissage Non Supervisé</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>500</y>
+     <width>900</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit{
+    background: #FFFFFF;
+    background-color:#CCD1D1;
+	font: 25 11pt &quot;URW Bookman&quot;;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-size:20px;
+    color: #000000;
+
+}
+QTextEdit:hover{
+     border: 2px solid #6E89E2; 
+     background: #FFFFFF;
+      background-color:#FFFFFF;
+      color: #000000;
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
